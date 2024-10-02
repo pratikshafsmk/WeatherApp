@@ -8,8 +8,6 @@ const Whether = () => {
   const inputRef = useRef();
   const [wetherData, setWetherData] = useState(false);
 
-  console.log("hello");
-
   const search = async (city) => {
     if (city === "" || undefined || null) {
       alert("Enter City Name");
